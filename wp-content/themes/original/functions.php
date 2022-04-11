@@ -17,5 +17,8 @@ function load_assets()
   /* common */
   wp_enqueue_style('my-style', get_template_directory_uri() . '/style.css', array(), $version, false);
   wp_enqueue_script('my-js', get_template_directory_uri() . '/js/common.js', array('jquery'), $version, true);
+  // swiper
+  // wp_enqueue_style( 'swiper-css', 'https://unpkg.com/swiper@7/swiper-bundle.min.css', array(), false, false );
+	// wp_enqueue_script( 'swiper', 'https://unpkg.com/swiper@7/swiper-bundle.min.js', array(), false, false );
 }
 add_action('wp_enqueue_scripts', 'load_assets');

@@ -11,11 +11,29 @@
 <html lang="ja">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1" />
-    <meta name="format-detection" content="telephone=no">
   <?php wp_head(); ?>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<title></title>
+	<meta name="description" content="">
+	<link rel="canonical" href="" />
+	<!--facebook & その他SNSの設定-->
+	<meta property="og:title" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/ogp.png" />
+	<meta name="keywords" content="">
+	<!--twitterの設定-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:image" content="<?php bloginfo( 'template_url' ); ?>/images/ogp.png" />
+	<meta name="twitter:title" content="">
+	<meta name="twitter:description" content="">
 </head>
 
 <body>
