@@ -6,12 +6,12 @@
  * @package original
  * @since 1.0.0
  */
-date_default_timezone_set('Asia/Tokyo');
+ // date_default_timezone_set('Asia/Tokyo');
 
 function load_assets()
 {
   // キャッシュ対策のためデプロイ前に$versionの数値を変更する。
-  $version = '1.0.0';
+  $version = date("YmdHis");
   /* (例)google fonts Noto+Sans+JP font-weightはデザインのweightを選択する */
   // wp_enqueue_style('Noto+Sans+JP', 'https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap', array(), $version, false);
   /* common */
