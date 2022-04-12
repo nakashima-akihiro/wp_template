@@ -34,6 +34,8 @@
 	<meta name="twitter:image" content="<?php bloginfo( 'template_url' ); ?>/images/ogp.png" />
 	<meta name="twitter:title" content="">
 	<meta name="twitter:description" content="">
+	<!-- material icons -->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 </head>
 
 <body>
